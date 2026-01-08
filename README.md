@@ -1,7 +1,7 @@
 # Android-History
 Este repositório contém o código-fonte e os recursos utilizados no projeto "Android-History". Aqui estão alguns detalhes essenciais:
 
-URL do site: <a href="https://everton-leon.github.io/Android-History/" target="_blank">https://everton-leon.github.io/Android-History/</a>
+URL do site: [https://everton-leon.github.io/Android-History/](https://everton-leon.github.io/Android-History/)
 
 Estrutura do Projeto:
 
