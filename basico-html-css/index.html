@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Básico HTML/CSS</title>
+    <link rel="stylesheet" href="estilos/geral.css">
+</head>
+<body>
+    <header>
+        <h1>Básico Sobre HTML5 e CSS3</h1>
+        <p>Site criado para auxiliar os alunos durante sua aprendizagem.</p>
+    </header>
+    <main>     
+        <section>
+            <h2>Informações básicas de uma página HTML</h2>
+            <dl>
+                <dt>lang="pt-br"</dt>
+                <dd>- Define o idioma da página.</dd>
+                <dt>charset="UTF-8"</dt> 
+                <dd>- É uma tag HTML que define o conjunto de caracteres a ser utilizado na exibição do conteúdo de um site.</dd>
+                <dt><code>&lthead&gt</code></dt> 
+                <dd>- É usada como cabeçalho, ou seja, um conjunto de informações de uma página de um site.</dd>
+                <dt><code>&lttitle&gt</code></dt>  
+                <dd>- Define o título do documento, mostrado na barra de título de um navegador ou na aba da página.</dd>
+                <dt><code>&ltlink&gt</code></dt>  
+                <dd>- Especifica as relações entre o documento atual e um recurso externo.</dd>
+                Exemplo:
+                <dt><code>&ltlink:favicon&gt</code></dt> 
+                <dd>- Define o ícone que é exibido no topo da página.</dd>
+                <dt><code>&ltlink:css&gt</code></dt> <dd>- Define o caminho para o css.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Tags Semânticas</h2>
+            <dl>
+                <dt><code>&ltheader&gt</code></dt> 
+                <dd>- Define o cabeçalho do HTML.</dd>
+                <dt><code>&ltnav&gt</code></dt> 
+                <dd>- Define uma navegação/menu.</dd>
+                <dt><code>&ltsection&gt</code></dt> 
+                <dd>- Cria uma seção.</dd>
+                <dt><code>&ltarticle&gt</code></dt> 
+                <dd>- Cria um artigo.</dd>
+                <dt><code>&ltaside&gt</code></dt> 
+                <dd>- Define conteúdo a parte.</dd>
+                <dt><code>&ltfooter&gt</code></dt> 
+                <dd>- Define um rodapé.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Tags de Texto</h2>
+            <dl>
+                <dt><code>&lth1&gt</code></dt> 
+                <dd>- Título 1.</dd>
+                <dt><code>&lth2&gt</code></dt> 
+                <dd>- Título 2/Subtítulo.</dd>
+                <dt><code>&lth3&gt</code></dt> 
+                <dd>- Título de terceiro nível.</dd>
+                <dt><code>&lth4&gt</code></dt> 
+                <dd>- Título de quarto nível. (raramente utilizado)</dd>
+                <dt><code>&lth5&gt</code></dt> 
+                <dd>- Título de quinto nível. (raramente utilizado)</dd>
+                <dt><code>&lth6&gt</code></dt> 
+                <dd>- Título de sexto nível. (raramente utilizado)</dd>
+
+                <!-- Outras Tags -->
+
+                <dt><code>&ltp&gt</code></dt> 
+                <dd>- Representa um parágrafo.</dd>
+                <dt><code>&ltbr&gt</code></dt> 
+                <dd>- Quebra de linha.</dd>
+                <dt><code>&lthr&gt</code></dt> 
+                <dd>- Quebra de linha temática.</dd>
+                <dt><code>&ltstrong&gt</code></dt> 
+                <dd>- Negrito : <strong>Exemplo</strong>.</dd>
+                <dt><code>&ltem&gt</code></dt> 
+                <dd>- Itálico : <i>Exemplo</i>.</dd>
+                <dt><code>&ltmark&gt</code></dt> 
+                <dd>- Marca texto : <mark>Exemplo</mark>.</dd>
+                <dt><code>&ltsmall&gt</code></dt>
+                <dd>- Texto pequeno : <small>Exemplo</small>.</dd>
+                <dt><code>&ltdel&gt</code></dt>
+                <dd>- Texto excluido : <del>Exemplo</del>.</dd>
+                <dt><code>&ltins&gt</code></dt> 
+                <dd>- Texto inserido : <ins>Exemplo</ins>.</dd>
+                <dt><code>&ltsup&gt</code></dt> 
+                <dd>- Texto sobrescrito : x<sup>20</sup> + 3</dd>
+                <dt><code>&ltsub&gt</code></dt> 
+                <dd>- Texto subscrito : H<sub>2</sub>0</dd>
+                <dt><code>&ltbdo dir="rtl"&gt</code></dt> 
+                <dd>- Texto invertido : <bdo dir="rtl">Exemplo</bdo>.</dd>
+                <dt><code>&ltcode&gt</code></dt> 
+                <dd>- Formatação de código-fonte : <code>Exemplo</code></dd>
+                <dt><code>&ltpre&gt</code></dt> 
+                <dd>- Apresenta o texto exatamente como digitado no código original da página HTML.</dd>
+                <dt><code>&ltq&gt</code></dt> 
+                <dd>- Citação simples.</dd>
+                <dt><code>&ltblockquate&gt</code></dt> 
+                <dd>- Citação completa.</dd>
+                <dt><code>&ltabbr&gt</code></dt> 
+                <dd>- Abreviação - <abbr title="Exemplo">Exemplo</abbr>.</dd>
+                <dt><code>lorem</code></dt> 
+                <dd>- Cria um parágrafo ficticio.</dd>
+            </dl>
+        </section>
+        <section>
+            <dl>
+                <h2>Listas</h2>
+                <dt><code>&ltol&gt</code></dt> 
+                <dd>- Lista ordenada.</dd>
+                    <p>Exemplo:</p> <ol>
+                        <li>Banana</li>
+                        <li>Maçã</li>
+                        <li>Morango</li>
+                    </ol>
+                <dt><code>&ltli&gt</code></dt> 
+                <dd>- Item da lista.</dd>
+                <dt><code>&ltul&gt</code></dt> 
+                <dd>- Lista não ordenada.</dd> 
+                <p>Exemplo:</p> <ul>
+                    <li>Carro</li>
+                    <li>Moto</li>
+                    <li>Caminhão</li>
+                </ul>
+                <dt><code>&ltdl&gt</code></dt> 
+                <dd>- Lista de definição.</dd> 
+                <dt><code>&ltdt&gt</code></dt> 
+                <dd>- Termo da lista de definição.</dd> 
+                <dt><code>&ltdd&gt</code></dt> 
+                <dd>- Descrição do termo. </dd>
+                <p>Exemplo:</p> <dl>
+                    <dt>Carro</dt>
+                    <dd>- Veículo de 4 rodas</dd>
+                </dl>
+            </dl>
+        </section>
+        <section>
+            <dl>
+                <h2>Link</h2>
+                <dt><code>&lta&gt</code></dt>
+                <dd>- Cria referência de link.</dd> <dt><code>href=""</code></dt>
+                <dd>- Link de destino. </dd>
+                <dt><code>target="_blank"</code></dt>
+                <dd>- Abrir o link em outra guia.</dd> <dt><code>rel="external"</code></dt>
+                <dd>- Indica que é um link externo.</dd>
+                <dt><code>rel="next"</code></dt>
+                <dd>- Indica que é a proxima página do proprio site. </dd>
+                <dt><code>rel="prev"</code></dt>
+                <dd>- Indica que o link volta para página anterior. </dd>
+                <dt><code>rel="nofollow"</code></dt>
+                <dd>- Indica que você não sabe a procedência do site em questão.</dd>
+                <h3>Download</h3>
+                <code>&lta&gt</code>
+                <dt><code>href=""</code></dt> 
+                <dd>- O nome do arquivo que vai ser baixado (tem que está na pasta do projeto)</dd> <dt><code>download=""</code></dt> 
+                <dd>- O nome do arquivo novamente.</dd> <dt><code>&lttype="application/pdf"&gt</code></dt> 
+                <dd>- O tipo do arquivo.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Iframe</h2>
+            <dl>
+                <dt><code>&ltiframe src="caminho do site"frameborder="0" &gt</code></dt> 
+                <dd>- Tag do iframe.</dd>
+                <dt><code>target="'name' do iframe"</code></dt> 
+                <dd>- Para abrir um link dentro do Iframe.</dd>
+                <dt><code>sandbox="sandbox"</code></dt> 
+                <dd>- Para bloquear ações dentro do Iframe.</dd>
+                <dt><code>referrerpolicy="no-referrer"</code></dt> 
+                <dd>- Para não permitir a coleta de dados dentro do Iframe.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Tabelas</h2>
+            <dl>
+                <dt><code>&ltcaption&gt</code></dt>
+                <dd>- Título da tabela.</dd>
+                <dt><code>&lttr&gt</code></dt> 
+                <dd>- Linha da tabela.</dd>
+                <dt><code>&ltth&gt</code></dt> 
+                <dd>- Título da coluna da tabela.</dd>
+                <dt><code>&lttd&gt</code></dt>
+                <dd>- Dado da tabela.</dd>
+                <dt><code>&ltthead&gt</code></dt> 
+                <dd>- Cabeçalho da tabela.</dd>
+                <dt><code>&lttbody&gt</code></dt> 
+                <dd>- Corpo da tabela.</dd>
+                <dt><code>&lttfoot&gt</code></dt> 
+                <dd>- Rodapé da tabela.</dd>
+                <dt><code>border-collapse: collapse;</code></dt> 
+                <dd>- Deixar as linhas da tabela juntas.</dd>
+                <dt><code>vertical-aligh: bottom;</code></dt> <dd>- Alinhamento vertical.</dd>
+                <dt><code>escope: "col/row";</code></dt> <dd>- Para indicar se os dados estão do lado ou abaixo.</dd>
+                <dt><code>colspan="2"</code></dt> 
+                <dd>- Mesclagem de colunas.</dd>
+                <dt><code>rowspan="3"</code></dt> 
+                <dd>- Mesclagem de linhas.</dd>
+                <dt><code>th:nth-child(2n){}</code></dt> <dd>- Efeito zebrado.</dd>
+                <dt><code>&ltcolgroup&gt > &ltcol&gt</code></dt> 
+                <dd>- Selecionar colunas.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Formulários</h2>
+            <dl>
+                <dt><code>&ltform&gt</code></dt> 
+                <dd>- Criar área de formulário.</dd> <dt>action="cadasrto.php"</dt> 
+                <dd>- Ligar o formulário a outra linguagem.</dd> 
+                <dt>method="get/post"</dt> 
+                <dd>- Indica como os dados serão enviados.</dd>
+                <dt><code>&ltlabel&gt</code></dt> 
+                <dd>- Liga o input a um texto.</dd> 
+                <dt>for="(o id do input)"</dt>
+                <dt><code>&ltinput&gt</code></dt> 
+                <dd>- Cria a área que ira receber os dados.</dd> <dt>type="text"</dt> 
+                <dd>- Indica o tipo do input.</dd> <dt>required</dt> 
+                <dd>- Indica que o campo é obrigtório.</dd> <dt>minlength="5"</dt> 
+                <dd>- Mínimo de caracteres aceitos.</dd> <dt>maxlength="15"</dt>
+                <dd>- Máximo de caracteres aceitos.</dd> <dt>max="0"</dt> 
+                <dd>- Número mínimo aceito.</dd> <dt>max="100"</dt> <dd>- número maximo aceito.</dd>
+                <dt>size="30"</dt> 
+                <dd>- O tamanho da caixa.</dd> <dt>placeholder="Digite seu email"</dt> 
+                <dd>- dica para o usuário digitar.</dd> <dt>step="0.5"</dt> <dd>- tamanho do salto em caixas numericas.</dd>
+                <dt>value=""</dt> 
+                <dd>- valor predefinido para a caixa.</dd> <dt>pattern="^\(\d{2}\)\d{4,5}-\d{4}$"</dt> <dd>- padrão predefinido de escrita.</dd> <dt>checked</dt> 
+                <dd>- a caixa já começa marcada.</dd>
+                <dt><code>&lttextarea&gt</code></dt> 
+                <dd>- área de texto.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Select</h2>
+            <dl>
+                <dt><code>&ltslect&gt</code> </dt>
+                <dd>- Cria a lista de seleção.</dd>
+                <dt><code>&ltoption&gt</code></dt>
+                <dd>- Opções da lista.</dd>
+                <dt><code>&ltoptgroup&gt</code></dt> 
+                <dd>- Título da lista.</dd>
+                <dt><code>&ltdatalist&gt</code></dt> 
+                <dd>- Possíveis valores da lista.</dd>
+            </dl>
+        </section>
+        <hr>
+        <section>
+            <h1>CSS</h1>
+            <h2>Font</h2>
+            <dl>
+                <dt><code>font-family: Arial, san-serif;</code></dt> 
+                <dd>- Definir a fonte do texto.</dd>
+                <dt><code>font-weight: (lighter normal bold bolder);</code></dt> 
+                <dd>- Formatação da fonte.</dd>
+                <dt><code>font-style: italic;</code></dt> <dd>- Estilo da fonte.</dd>
+                <dt><code>font-size: 2.5em;</code></dt> 
+                <dd>- Tamanho da fonte.</dd>
+                <dt>ShortHand:</dt> 
+                <dd><code>font: font-style font-weight font-size font-family;</code></dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Text</h2>
+            <dl>
+                <dt><code>text-align: center;</code></dt> <dd>- Alinhamento do texto.</dd>
+                <dt><code>text-indent: 30px;</code></dt> <dd>- Identação antes do inicio do paragrafo.</dd>
+                <dt><code>text-decoration: underline;</code></dt> 
+                <dd>- Decoração do texto.</dd>
+                <dt><code>text-shadow: 1px 1px 1px black;</code></dt>
+                <dd> - Sombra do texto.</dd>
+                <dt><code>text-transform: uppercase;</code></dt> 
+                <dd>- Especifica como capitalizar um texto de um elemento.</dd>
+                <dt><code>color: black;</code></dt> 
+                <dd>- Cor do texto.</dd>
+                <dt><code>line-heigt: 10px;</code></dt> 
+                <dd>- Espaço vertical entre as linhas.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>XXXXX</h2>
+            <dl>
+                <dt><code>margin: auto;</code></dt> 
+                <dd>- Margem da caixa.</dd>
+                <dt><code>padding: 20px:</code></dt> 
+                <dd>- Preenchimento da caixa.</dd>
+                <dt><code>width: 100vw;</code></dt> 
+                <dd>- Largura da caixa.</dd>
+                <dt><code>height: 100vh;</code></dt> 
+                <dd>- Altura da caixa.</dd>
+                <dt><code>display: block;</code></dt> 
+                <dd>- Display do objeto.</dd>
+                <dt><code>outline: auto;</code></dt> 
+                <dd>- Contorno da caixa.</dd>
+                <dt><code>background-color: red;</code></dt> <dd>- Cor de fundo.</dd>
+                <dt><code>border-radius: 50%;</code></dt> <dd>- Arrendondar as bordas da caixa.</dd>
+                <dt><code>box-shadow: 1px 1px 1px black;</code></dt> 
+                <dd>- Sombra da caixa.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Adicionando Font Externa</h2>
+            <p>@font-face {<br><code>font-family: (o nome da font);</code><br><code>src: url(caminho da font) format(tipo da font);</code> }</p>
+        </section>
+        <section>
+            <h2>Seletores Personalizados</h2>
+            <p># = id</p>
+            <p>. = class</p>
+            <p>: = pseudo-class</p>
+            <p>:: = pseudo-elemento</p>
+            <p>> = elemento filho</p>
+        </section>
+        <section>
+            <h2>Pseudo-Classe de Links</h2>
+            <dl>
+                <dt><code>a:visited</code></dt> 
+                <dd>- Link visitado.</dd>
+                <dt><code>a:hover</code></dt> 
+                <dd>- Quando o mouse é passado por cima do link.</dd>
+                <dt><code>a:active</code></dt> 
+                <dd>- link que já foi ativado antes.</dd>
+                <dt><code>a::after</code></dt> 
+                <dd>- Elemento após o link.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Imagem como Borda</h2>
+            <dl>
+                <dt><code>border-image-source: url();</code></dt> 
+                <dd>- Caminho da imagem.</dd>
+                <dt><code>border-image-slice: 10;</code></dt> <dd>- Tamanho da imagem.</dd>
+                <dt><code>border-image-repeat: repeat;</code></dt> 
+                <dd>- Se vai ou não haver repetição.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Variáveis</h2>
+            <p>:root {<br> <code>--cor1: white;</code> - nome da variável e o que ela vai guardar. <br><code>--cor2: black;</code> }</p>
+        </section>
+        <section>
+            <h2>CSS para Listas</h2>
+            <dl>
+                <dt><code>list-style-type: '\(código do síbolo)'</code></dt> 
+                <dd>- Mudar o síbolo da lista.</dd>
+                <dt><code>list-style-position: inside;</code></dt> 
+                <dd>- Puxar o síbolo para dentro do bloco.</dd>
+                <dt><code>columns: 2;</code></dt>
+                <dd> - Número de colunas.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Imagem</h2>
+            <dl>
+                <dt><code>background-image: url();</code></dt> 
+                <dd>- Caminho da imagem de fundo.</dd>
+                <dt><code>background-position: left top;</code></dt> 
+                <dd>- Posicionamento da imagem.</dd>
+                <dt><code>background-size: 100px;</code></dt> <dd>- Tamanho da imagem.</dd>
+                <dt><code>background-repeat: no-repeat;</code></dt> 
+                <dd>- Número de repetições da imagem.</dd>
+                <dt><code>background-size: cover;</code></dt> <dd>- Preencher o fundo inteiro com a imagem.</dd>
+                <dt><code>background-attachement: fixed;</code></dt> 
+                <dd>- Para a imagem de fundo ficar fixa.</dd>
+                <dt>ShortHand:</dt>
+                <dd><code>background: color > image > position > repeat > size(não está funcionando) > attachement;</code></dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Media Queryies</h2>
+            <p>&ltlink rel="stylesheet" href="estilos/celular.css" media="(o tipo de media. Ex: screen, print, all, etc.)"&gt</p>
+            <p>media="screen and (orientation: portraid)"</p>
+            <h3>Typical Device Brakpoints</h3>
+            <p>Pequenas telas: até 600px. <br>
+            Celular: 600px até 768px. <br>
+            Tablet: 768px até 992px. <br>
+            Desktop: 992px até 1200px. <br>
+            Grandes telas: acima de 1200px.</p>
+        </section>
+    </main>
+    <footer>
+        <p>@everton.leon7</p>
+    </footer>
+</body>
+</html>

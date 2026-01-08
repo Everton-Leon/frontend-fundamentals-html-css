@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@200 & family= Sriracha & display=swap');
+
+/*
+    Cores:
+    roxo: #8F1D71
+    rosa claro: #FF66D7
+    rosa: #DB42B3
+    verde escuro: #248F0E
+    verde claro: #3FDB1E
+
+    Fontes: 
+    'Montserrat', sans-serif
+
+    panache: #e8f5e9
+    Areia Selvagem: #f7f7f7
+    Pássaro Trovão: #b71c1c
+    Eixo Meu: #212121
+*/
+
+:root {
+    --roxo: #8F1D71;
+    --rosaClaro: #FF66D7;
+    --rosa: #DB42B3;
+    --verdeEscuro: #248F0E;
+    --verdeClaro: #3FDB1E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #b71c1c;
+    padding: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.233);
+}
+
+header h1 {
+    padding: 5px;
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+}
+
+header p {
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    padding-top: 5px;
+}
+
+main {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background-color: #212121;
+}
+
+main h2, h3 {
+    padding-left: 5px;
+    margin-bottom: 10px;
+    border-left: 3px solid #b71c1c;
+}
+
+main dt {
+    color: #b71c1c;
+    font-weight: bolder;
+}
+
+dt, dd {
+    background: #f7f7f7;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+dt {
+    padding-top: 5px;
+}
+
+dd {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    
+}
