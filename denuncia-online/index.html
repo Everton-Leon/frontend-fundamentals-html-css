@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncia online de assédios</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="row mt-3">
+            <div class="col-12 my-2">
+                <h1 class="h1 text-center">Não Fique Calada: Denuncie o Assédio</h1>
+            </div>
+            <div class="col-12">
+                <img src="img/mulher.jpg" alt="Assedio Contra as Mulheres" class="img-fluid rounded mx-auto d-block">
+            </div>
+            <div class="col-12 my-4">
+                <p>O <mark>assédio</mark> contra mulheres é uma realidade devastadora que muitas vezes ocorre nas sombras da sociedade. Desde comentários e gestos ofensivos até agressões físicas, o assédio assume diversas formas, todas igualmente prejudiciais. Reconhecer esses comportamentos é crucial para combatê-los. No nosso espaço seguro e anônimo, encorajamos você a relatar qualquer forma de assédio que tenha enfrentado ou testemunhado.</p>
+            </div>
+            <div class="col-12 mb-3">
+                <h3 class="mb-2">Área de Denúncia:</h3>
+                <form action="" method="POST">
+                    <div class="mb-3">
+                        <label for="inome" class="form-label">Nome (Opcional):</label>
+                        <input type="text" class="form-control" name="nome" id="inome" placeholder="Maria">
+                    </div>
+                    <div class="mb-3">
+                        <label for="iemail" class="form-label">Email (Opcional):</label>
+                        <input type="email" class="form-control" name="email" id="iemail" placeholder="nome@exemplo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="itipo">Tipos de Assédio: </label>
+                        <select class="form-select" name="tipo" id="itipo">
+                            <option selected>-- Selecionar --</option>
+                            <option value="1">Verbal</option>
+                            <option value="2">Físico</option>
+                            <option value="3">Sexual</option>
+                            <option value="4">Psicológico</option>
+                            <option value="5">Outro</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="idenuncia" class="form-label">Denúncia:</label>
+                        <textarea class="form-control" name="denuncia" id="idenuncia" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-danger">Enviar Denúncia</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12">
+                <h5>Sua Privacidade é Prioridade:</h5>
+                <p>
+                    <small>
+                    Aqui no nosso espaço de denúncias, valorizamos sua segurança e privacidade. Todas as denúncias enviadas são estritamente confidenciais e serão tratadas anonimamente. Garantimos que nenhuma informação pessoal será divulgada sem seu consentimento explícito. Sinta-se segura ao compartilhar sua história conosco.
+                    </small>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid bg-dark">
+        <div class="row p-3">
+            <div class="col-12">
+                <p class="text-center text-white">
+                    <em>Para qualquer dúvida ou questão sobre o desenvolvimento do site, entre em contato com <a href="evertonleon07@gmail.com">Everton Leon</a>.</em></p>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>
